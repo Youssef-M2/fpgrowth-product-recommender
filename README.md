@@ -140,10 +140,10 @@ fpgrowth-recommender/
       Drop missing values
       Remove duplicates
 ### 2️⃣ Basket Matrix
-      Binary encoding:
-      ```text
+  **Binary encoding:**
+    ```text
           Invoice × Product → {0,1}
-      ```
+    ```
 ### 3️⃣ FP-Growth
         - Extract frequent itemsets efficiently
        
