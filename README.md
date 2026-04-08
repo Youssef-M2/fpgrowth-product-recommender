@@ -155,9 +155,10 @@ fpgrowth-recommender/
         
 ## 📊 Example
 ### 🛒 Input Basket
-
   **CHOCOLATE THIS WAY METAL SIGN**
+  
   **CHOCOLATE HOT WATER BOTTLE**
+  
   **COFFEE MUG CAT + BIRD DESIGN**
 
 ### 💡 Output Recommendations
