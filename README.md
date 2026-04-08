@@ -96,12 +96,12 @@ fpgrowth-recommender/
 ```bash
   pip install -r requirements.txt
 ```
---- 
+ 
 ## Dataset
-📊 Source: UCI Machine Learning Repository
-📦 File: Online Retail.xlsx
-📈 Size: ~541k transactions
----
+**📊 Source: UCI Machine Learning Repository**
+**📦 File: Online Retail.xlsx**
+**📈 Size: ~541k transactions**
+
 ```bash
     data/
 └── online_retail_II.xlsx
@@ -133,34 +133,34 @@ fpgrowth-recommender/
     📋 Full rule exploration
 
 ## 🧠 How It Works
---
-    1️⃣ **Data Cleaning**
-        Remove cancelled invoices
-        Remove negative quantities
-        Drop missing values
-        Remove duplicates
-    2️⃣ **Basket Matrix**
-        Binary encoding:
-        ```bash
-           Invoice × Product → {0,1}
-        ```
-    3️⃣ **FP-Growth**
+
+### 1️⃣ Data Cleaning
+      Remove cancelled invoices
+      Remove negative quantities
+      Drop missing values
+      Remove duplicates
+### 2️⃣ Basket Matrix
+      Binary encoding:
+      ```text
+          Invoice × Product → {0,1}
+      ```
+### 3️⃣ FP-Growth
         - Extract frequent itemsets efficiently
---   
-    4️⃣ **Association Rules**
+       
+### 4️⃣ Association Rules
         - Generate rules using confidence
         - Filter using lift
-    5️⃣ **Recommendation Engine**
-    ```bash
+### 5️⃣ Recommendation Engine
+    ```text
         If (antecedents ⊆ basket) → recommend consequents
     ```
 ## 📊 Example
 ### 🛒 Input Basket
---
-    **CHOCOLATE THIS WAY METAL SIGN**
-    **CHOCOLATE HOT WATER BOTTLE**
-    **COFFEE MUG CAT + BIRD DESIGN**
---  
+
+**CHOCOLATE THIS WAY METAL SIGN**
+**CHOCOLATE HOT WATER BOTTLE**
+**COFFEE MUG CAT + BIRD DESIGN**
+
 ### 💡 Output Recommendations
 ```bash
     | Product                           | Confidence | Lift | Support |
@@ -198,7 +198,6 @@ fpgrowth-recommender/
     ✔ Production-ready structure
 
 ## 👤 Author
---
-    **Youssef Benyahia**
-    **📧 benyahiayoussef63@gmail.com**
---
+
+**Youssef Benyahia**
+**📧 benyahiayoussef63@gmail.com**
