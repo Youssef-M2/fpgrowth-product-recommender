@@ -59,7 +59,7 @@ It analyzes e-commerce transaction data to suggest **relevant complementary prod
 fpgrowth-recommender/
 │
 ├── 📁 data/                     # Dataset (non versionné idéalement)
-│   └── Online Retail.xlsx
+│   └── online_retail_II.xlsx
 │
 ├── 📁 models/                   # Modèles sauvegardés
 │   ├── fpgrowth.pkl
@@ -104,7 +104,7 @@ fpgrowth-recommender/
 ---
 ```bash
     data/
-└── Online Retail.xlsx
+└── online_retail_II.xlsx
 ```
 
 ## 🚀 Usage
@@ -112,11 +112,11 @@ fpgrowth-recommender/
 --- 
 ▶️ **Train + Demo**
 ```bash
-    python main.py --data data/Online Retail.xlsx
+    python main.py --data data/online_retail_II.xlsx
 ```
 🎯 **Interactive Mode**
 ```bash
-    python main.py --data data/Online Retail.xlsx --interactive
+    python main.py --data data/online_retail_II.xlsx --interactive
 ```
 💾 **Load Saved Model**
 ```bash
