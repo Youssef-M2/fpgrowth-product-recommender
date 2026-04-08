@@ -142,9 +142,8 @@ fpgrowth-recommender/
 ### 2️⃣ Basket Matrix
   **Binary encoding:**
     
-      ```text
-          Invoice × Product → {0,1}
-      ```
+    Invoice × Product → {0,1}
+      
 ### 3️⃣ FP-Growth
         - Extract frequent itemsets efficiently
        
@@ -152,9 +151,8 @@ fpgrowth-recommender/
         - Generate rules using confidence
         - Filter using lift
 ### 5️⃣ Recommendation Engine
-      ```text
         If (antecedents ⊆ basket) → recommend consequents
-      ```
+        
 ## 📊 Example
 ### 🛒 Input Basket
 
