@@ -56,17 +56,27 @@ It analyzes e-commerce transaction data to suggest **relevant complementary prod
 
 ```bash
 .
-├── data_preprocessing.py     # Data cleaning & transformation
-├── model.py                  # FP-Growth + rules generation
-├── recommender.py           # Recommendation engine
-├── main.py                  # CLI pipeline
-├── app.py                   # Streamlit app
-├── requirements.txt
-├── data/
+fpgrowth-recommender/
+│
+├── 📁 data/                     # Dataset (non versionné idéalement)
 │   └── Online Retail.xlsx
-└── models/
-    ├── fpgrowth.pkl
-    └── rules.pkl
+│
+├── 📁 models/                   # Modèles sauvegardés
+│   ├── fpgrowth.pkl
+│   └── rules.pkl
+│
+├── 📁 src/                      # Code source principal
+│   ├── data_preprocessing.py        # Nettoyage & transformation
+│   ├── model.py                # FP-Growth + règles
+│   └── recommender.py          # Logique de recommandation
+│
+├── 📄 app.py                    # Application Streamlit (UI)
+├── 📄 main.py                   # Pipeline CLI
+├── 📄 fpgrowth_recommender.ipynb # Notebook (exploration / tests)
+│
+├── 📄 requirements.txt          # Dépendances Python
+├── 📄 README.md                 # Documentation du projet
+├── 📄 .gitignore                # Fichiers ignorés Git
 ```
 ## ⚙️ Installation
 
